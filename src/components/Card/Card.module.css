@@ -1,0 +1,19 @@
+.wrapper{
+  box-sizing:initial;
+  width: calc(33% - 10px);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+  cursor:pointer;
+}
+.wrapper:hover{
+  transform: scale(1.05);
+}
+.imgWrapper > img {
+  width: 100%;
+}
+.textWrapper{
+  padding: 10px 2%;
+}
