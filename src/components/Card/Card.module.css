@@ -1,6 +1,6 @@
 .wrapper{
   box-sizing:initial;
-  width: calc(33% - 10px);
+  width: calc(50% - 30px);
   border-radius: 14px;
   overflow: hidden;
   margin-bottom: 10px;
@@ -11,9 +11,25 @@
 .wrapper:hover{
   transform: scale(1.05);
 }
+.imgWrapper{
+  min-height: 280px ;
+}
 .imgWrapper > img {
-  width: 100%;
+  width: 100%;  
 }
 .textWrapper{
   padding: 10px 2%;
+}
+
+@media (max-width: 567px) {
+  .wrapper{
+    width: 100%;
+  }
+  .imgWrapper{
+    min-height: initial;
+  }
+  .wrapper:hover{
+    transform: scale(1);
+  }
+  
 }

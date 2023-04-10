@@ -1,3 +1,23 @@
+html{
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+	width: 5px;
+	padding: 3px 5px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#eeffbc, #ffcfe0, #a9ccdf);
+	border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+
+}
+
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,9 +27,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;
 }
 
@@ -22,7 +41,7 @@ code {
 @font-face {
 	font-family: "Expo Arabic";
 	src: local("Expo Arabic"),
-		url("./fonts/Expo Arabic/Expo Arabic Bold.ttf") format("truetype");
+	url("./fonts/Expo Arabic/Expo Arabic Bold.ttf") format("truetype");
 	font-weight: bold;
 }
 @font-face {
@@ -45,12 +64,13 @@ code {
 }
 
 .reveal{
-  transform: translateY(200px);
+  transform: translateY(150px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 1s all ease-in-out;
 }
 
 .reveal.active{
-  transform: translateY(0);
+	transform: translateY(0);
+	transition: 1s all ease-in-out;
   opacity: 1;
 }

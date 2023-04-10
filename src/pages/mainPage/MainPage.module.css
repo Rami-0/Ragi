@@ -8,11 +8,13 @@
 .main {
 	height: 100vh;
 	width: 100%;
+	z-index: 999;
 	/* position: sticky;
 	top: -95vh; */
-	background: linear-gradient(-45deg, #eeffbc, #ffcfe0, #a9ccdf);
-	background-size: 200% 200%;
+	background: linear-gradient(#eeffbc, #ffcfe0, #a9ccdf);
+	background-size: 300% 200%;
 	animation: AnimationName 2s ease-in-out infinite;
+	background-position: center;
 }
 
 @keyframes AnimationName {
@@ -56,7 +58,7 @@
 	height: 10vh;
 	align-items: center;
 	position: sticky;
-	top: 10px;
+	top: 25px;
 	z-index: 2;
 }
 .header > a {
@@ -71,7 +73,7 @@
 	z-index: 1;
 	background: #fff; 
 	background-size: 120%,100%;
-	top: 25px;
+	top: 0px;
 	position: sticky;
 	font-weight: 100;
 	font-size: 116px;
@@ -85,4 +87,25 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 80px;
+}
+.Contacts{
+	position: sticky;
+	z-index: 3;
+	top: 100vh;
+}
+
+@media (max-width: 567px) {
+	.sectionLable{
+		display: none;
+	}
+	.header{
+		justify-content: space-evenly;
+		background: white;
+		top: 0;
+		padding: 0 20px ;
+		padding-top: 20px;
+	}
+	.header > a{
+		margin: 0;
+	}
 }
