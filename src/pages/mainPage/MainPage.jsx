@@ -1,8 +1,8 @@
 import css from "./MainPage.module.css";
 import logo from "../../assets/img/Logo.svg";
+import Logo2 from "../../assets/img/BlackedLogo.svg"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Card from "./../../components/Card/Card";
-import img from "../../assets/img/Screenshot 2023-04-05 012442.png";
 import { reveal } from "../../animation";
 import AnimateHarmony from "../../assets/img/Projects/AnimteHarmony.png";
 import LogoAnimation from "../../assets/img/Projects/LogoAnimation.png";
@@ -76,7 +76,7 @@ const MainPage = () => {
 			<main id="Home" className={css.main}>
 				<div className={css.logoDiv}>
 					<AnchorLink offset="20px" href="#portfolio">
-						<img src={logo} alt="" className={css.mainLogo + " hover"} />
+						<img src={Logo2} alt="" className={css.mainLogo + " hover"} />
 					</AnchorLink>
 				</div>
 			</main>
