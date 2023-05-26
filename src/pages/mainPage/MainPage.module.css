@@ -18,9 +18,15 @@
 }
 
 @keyframes AnimationName {
-	0%{background-size:100% 100%}
-	50%{background-size:300% 300%}
-	100%{background-size:100% 100%}
+	0% {
+		background-size: 100% 100%;
+	}
+	50% {
+		background-size: 300% 300%;
+	}
+	100% {
+		background-size: 100% 100%;
+	}
 }
 .mainLogo {
 	-webkit-animation-fill-mode: both;
@@ -57,10 +63,14 @@
 	display: flex;
 	justify-content: flex-end;
 	height: 10vh;
+	align-self: flex-end;
 	align-items: center;
 	position: sticky;
-	top: 25px;
+	top: 0px;
+	width: 100%;
 	z-index: 2;
+	background: #fff; 
+	box-shadow: 0 1px 2px 0px #919191;
 }
 .header > a {
 	text-decoration: none;
@@ -71,42 +81,55 @@
 	line-height: 24px;
 }
 .sectionLable {
-	z-index: 1;
+	/* z-index: 1;
+	top: 0px;
 	background: #fff; 
 	background-size: 120%,100%;
-	top: 0px;
 	position: sticky;
 	font-weight: 100;
 	font-size: 116px;
 	line-height: 155px;
-	box-shadow: 0 1px 2px 2px #fff;
+	box-shadow: 0 1px 2px 2px #fff; */
+	background: #fff;
+	font-weight: 100;
+	font-size: 42px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	width: 100%;
+
 }
 
-.cards{
+.cards {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 80px;
+	margin-bottom: 80px;
 }
-.Contacts{
+.Contacts {
 	position: sticky;
 	z-index: 3;
 	top: 100vh;
 }
 
 @media (max-width: 567px) {
-	.sectionLable{
-		display: none;
+	.sectionLable {
+		/* display: none; */
 	}
-	.header{
+	.header {
 		justify-content: space-evenly;
 		background: white;
 		top: 0;
-		padding: 0 20px ;
+		padding: 0 20px;
 		padding-top: 20px;
 	}
-	.header > a{
+	.header > a {
 		margin: 0;
+	}
+	.cards{
+		margin-top: 60px;
+		margin-bottom: 60px;
 	}
 }

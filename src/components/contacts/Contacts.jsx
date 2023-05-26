@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaWhatsappSquare, FaBehanceSquare } from "react-icons/fa";
+import { FaLinkedin, FaWhatsappSquare, FaBehanceSquare ,FaInstagramSquare} from "react-icons/fa";
 import css from "./Contacts.module.css";
 import { Link } from "react-router-dom";
 // const style = {
@@ -18,6 +18,9 @@ const Contacts = () => {
 			</Link>
 			<Link to={"https://www.behance.net/rajishalabi"} target="_blank" className={css.link}>
 				<FaBehanceSquare className={css.icon} />
+			</Link>
+			<Link to={"https://www.instagram.com/raji.shalabi/?igshid=MzRlODBiNWFlZA%3D%3D"} target="_blank" className={css.link}>
+				<FaInstagramSquare className={css.icon} />
 			</Link>
 		</div>
 	);
