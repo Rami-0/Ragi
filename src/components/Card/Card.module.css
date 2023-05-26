@@ -7,9 +7,11 @@
   margin-top: 10px;
   transition: 0.3s;
   cursor:pointer;
+  outline: 2px solid rgba(0, 0, 0, 0.189);
+  outline-offset: -2px;
 }
 .wrapper:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .imgWrapper{
   min-height: 280px ;
@@ -18,7 +20,23 @@
   width: 100%;  
 }
 .textWrapper{
-  padding: 10px 2%;
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.button {
+  align-self: flex-end;
+  display: flex;
+  place-items: center;
+  padding: 13px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.button:hover{
+  background: rgb(213, 213, 213);
 }
 
 @media (max-width: 567px) {
@@ -30,6 +48,9 @@
   }
   .wrapper:hover{
     transform: scale(1);
+  }
+  .button{
+    display: none;
   }
   
 }
