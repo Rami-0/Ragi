@@ -20,7 +20,7 @@ const Cooperations_arr = [Iktva, Amwal, Wadisafar, KFB, Li_tadom, Arzag, Bsatt, 
 const Cooperation = () => {
 	return (
 		<div className={css.SliderWrapper + ' containerPadded reveal'}>
-			<h2 className='reveal'>Cooperated</h2>
+			<h2 className='reveal'>Collaborated</h2>
 			<div className={css.sliderElements}>
 				{Cooperations_arr.map((e) => {
 					return (
