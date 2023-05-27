@@ -11,9 +11,10 @@
 	z-index: 999;
 	/* position: sticky;
 	top: -95vh; */
-	background: linear-gradient(#eeffbc, #ffcfe0, #a9ccdf);
-	background-size: 300% 200%;
-	animation: AnimationName 2s ease-in-out infinite;
+	/* background: linear-gradient(#eeffbc, #ffcfe0, #a9ccdf); */
+	background: white;
+	/* background-size: 300% 200%; */
+	/* animation: AnimationName 2s ease-in-out infinite; */
 	background-position: center;
 }
 
@@ -33,7 +34,8 @@
 	animation-fill-mode: both;
 	animation: popUp 1.5s 200ms ease-in-out;
 	transition: 0.5s;
-	width: 100px;
+	width: 150px;
+	cursor:cell;
 }
 @keyframes popUp {
 	0% {
@@ -117,6 +119,9 @@
 @media (max-width: 567px) {
 	.sectionLable {
 		/* display: none; */
+	}
+	.mainLogo{
+		width: 100px;
 	}
 	.header {
 		justify-content: space-evenly;

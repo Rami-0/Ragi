@@ -45,7 +45,7 @@ export const myProjects = [
 		link: 'https://www.behance.net/gallery/146381363/Logo-Animation-V1',
 	},
 	{
-		name: 'قدام',
+		name: 'Giddam',
 		img: Qiddam,
 		id: 8,
 		boolean: false,
@@ -62,7 +62,7 @@ export const myProjects = [
 		link: 'https://www.behance.net/gallery/121650789/Seed-and-Stem',
 	},
 	{
-		name: 'مؤتمر التخصصات الصحية',
+		name: 'KSAU-HS',
 		img: HealthMajors_gif ? HealthMajors_gif : HealthMajors_jpg,
 		id: 6,
 		boolean: false,
@@ -70,7 +70,7 @@ export const myProjects = [
 		link: 'https://www.instagram.com/p/CewUEFEDxCn/?igshid=MzRlODBiNWFlZA==',
 	},
 	{
-		name: 'مزج+الشرقية تبدع',
+		name: 'Mazj',
 		img: Mzg,
 		id: 7,
 		boolean: false,
