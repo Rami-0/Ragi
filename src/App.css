@@ -33,3 +33,11 @@ h1 {
 	
 }
 
+
+.pin__arrow{
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	right: 0;
+}

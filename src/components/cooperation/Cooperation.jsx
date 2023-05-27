@@ -18,23 +18,25 @@ import Wadisafar from './assets/Wadisafar.svg';
 import mzg from './assets/mzg.svg';
 import ultra from './assets/ultra.svg';
 
-const Cooperations_arr = [Amwal, Arzag, Bsatt, Huge, Iktva, KFB, Li_tadom, SBCandStv, Sportforal, Wadisafar, mzg, ultra];
+const Cooperations_arr = [Iktva, Amwal, Wadisafar, KFB, Li_tadom, Arzag, Bsatt, Huge, SBCandStv, Sportforal, mzg, ultra];
 
 const settings = {
+	rows: 2,
 	infinite: true,
 	slidesToShow: 6,
 	slidesToScroll: 1,
-	autoplay: true,
-	speed: 2000,
-	autoplaySpeed: 300,
-	pauseOnHover: false,
+	autoplay: false,
+	speed: 3000,
+	autoplaySpeed: 3000,
+	pauseOnHover: true,
 	cssEase: 'linear',
+	swipeToSlide: false,
 	responsive: [
 		{
 			breakpoint: 1024,
 			settings: {
 				slidesToShow: 3,
-				slidesToScroll: 1,
+				slidesToScroll: 3,
 			},
 		},
 		{
@@ -47,8 +49,13 @@ const settings = {
 		{
 			breakpoint: 480,
 			settings: {
+				autoplay: true,
+				rows: 1,
+				speed: 300,
+				autoplaySpeed: 1300,
+				fade: true,
 				slidesToShow: 1,
-				slidesToScroll: 1,
+				slidesToScroll: 2,
 			},
 		},
 	],
@@ -61,7 +68,7 @@ const Cooperation = () => {
 			<Slider {...settings}>
 				{Cooperations_arr.map((e) => {
 					return (
-						<div className={css.logo + " reveal"}>
+						<div className={css.logo + ' reveal'}>
 							<img src={e} alt='logo' />
 						</div>
 					);

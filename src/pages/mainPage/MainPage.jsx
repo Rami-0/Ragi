@@ -1,22 +1,25 @@
 import css from './MainPage.module.css';
 // import logo from "../../assets/img/Logo.svg";
-import Logo2 from '../../assets/img/BlackedLogo.svg';
+import Logo2 from '../../assets/img/Animation.gif';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Card from './../../components/Card/Card';
 import { reveal } from '../../animation';
 import Contacts from './../../components/contacts/Contacts';
 import { myProjects } from '../../constants/Projects';
 import Cooperation from './../../components/cooperation/Cooperation';
+import Lottie_Main from './../../components/lottie/Lottie_Main';
 
 const MainPage = () => {
 	return (
 		<>
 			<main id='Home' className={css.main}>
 				<div className={css.logoDiv}>
-					<AnchorLink offset='20px' href='#header'>
-						<img src={Logo2} alt='' className={css.mainLogo + ' hover'} />
-					</AnchorLink>
+					<img src={Logo2} alt='logo' className={css.mainLogo + ' hover'} />
 				</div>
+
+				<AnchorLink offset='20px' href='#header'>
+					<Lottie_Main />
+				</AnchorLink>
 			</main>
 			<header id='header' className={css.header + ' containerPadded reveal'}>
 				<AnchorLink className={'hover'} href='#Home'>
