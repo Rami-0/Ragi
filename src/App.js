@@ -12,7 +12,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<MainPage />} />
 				<Route path='/admin' element={<AdminPage />} />
-				<Route path='/MichaelPage' element={<PortfolioPage />} />
+				<Route path='/2024' element={<PortfolioPage />} />
 				<Route path='*' element={<NotFoundPage />} />
 			</Routes>
 		</div>
