@@ -3,8 +3,6 @@
   width: 700px;
   border-radius: 14px;
   overflow: hidden;
-  margin-bottom: 10px;
-  margin-top: 10px;
   transition: 0.3s;
   cursor:pointer;
   outline: 2px solid rgba(0, 0, 0, 0.189);
