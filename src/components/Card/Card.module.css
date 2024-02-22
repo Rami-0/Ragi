@@ -1,6 +1,6 @@
 .wrapper{
   box-sizing:initial;
-  width: 800px;
+  width: 690px;
   border-radius: 14px;
   overflow: hidden;
   transition: 0.3s;
@@ -16,7 +16,7 @@
   outline-offset: -1px;
 }
 .imgWrapper {
-  height: 450px;
+  height: 388px;
   display: flex;
   justify-content: center;
   align-items: center;
