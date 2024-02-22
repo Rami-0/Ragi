@@ -104,11 +104,12 @@
 
 .cards {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 80px;
 	margin-bottom: 80px;
+	gap: 40px;
 }
 .Contacts {
 	position: sticky;
