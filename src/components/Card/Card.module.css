@@ -1,6 +1,6 @@
 .wrapper{
   box-sizing:initial;
-  width: 700px;
+  width: 800px;
   border-radius: 14px;
   overflow: hidden;
   transition: 0.3s;
@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden; /* Optional: hides any overflow if the image is larger than the container */
+  aspect-ratio: 16/9;
 }
 
 .imgWrapper > img {
