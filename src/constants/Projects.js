@@ -101,7 +101,7 @@ export const myProjects2 = [
 		video: nizamAmervid,
 	},
 	{
-		name: 'National Center Achievements',
+		name: 'NationalNational Event Centre Achievement',
 		img: [nec_1, nec_2, nec_3],
 		id: 1,
 		boolean: false,
