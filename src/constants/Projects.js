@@ -4,6 +4,8 @@ import korean from '../assets/img/Projects/korean.png';
 import masari from '../assets/img/Projects/masari.jpg';
 import seedAndSteam from '../assets/img/Projects/seedAndSteam.png';
 import tagPluse from '../assets/img/Projects/tagPlus.gif';
+import intro_saudi_film from '../assets/img/Projects/intro_saudi-film.png';
+
 
 import HealthMajors_gif from '../assets/img/Projects/HealthMajors.gif';
 import HealthMajors_jpg from '../assets/img/Projects/HealthMajors.jpg';
@@ -22,6 +24,14 @@ import nec_3 from '../assets/video/nec_3.gif';
 
 
 export const myProjects = [
+	{
+		name: 'Saudi Film Festival 2024',
+		img: intro_saudi_film,
+		id: 1,
+		boolean: false,
+		description: '',
+		link: 'https://www.instagram.com/reel/C6zIB42oLZA/?igsh=MTUwcnVucXhlcHh4cQ==',
+	},
 	{
 		name: 'masari',
 		img: masari,
@@ -94,7 +104,7 @@ export const myProjects2 = [
 	{
 		name: 'SBA | Employees System explainer',
 		img: nizamAmergif,
-		id: 1,
+		id: 2,
 		boolean: false,
 		description: '',
 		link: '',
@@ -103,7 +113,7 @@ export const myProjects2 = [
 	{
 		name: 'National Event Centre Achievement',
 		img: [nec_1, nec_2, nec_3],
-		id: 1,
+		id: 3,
 		boolean: false,
 		description: '',
 		link: 'https://streamable.com/fc1ds6',
@@ -111,7 +121,7 @@ export const myProjects2 = [
 	{
 		name: 'Ideation | Prodaction intro',
 		img: Ideation_gif,
-		id: 1,
+		id: 4,
 		boolean: false,
 		description: '',
 		link: '',
@@ -120,7 +130,7 @@ export const myProjects2 = [
 	{
 		name: 'TagPlus',
 		img: tagPluse,
-		id: 1,
+		id: 5,
 		boolean: false,
 		description: '',
 		link: 'https://www.behance.net/gallery/146353781/TagPlus-Motion-Graphic',
@@ -128,7 +138,7 @@ export const myProjects2 = [
 	{
 		name: 'masari',
 		img: masari,
-		id: 3,
+		id: 6,
 		boolean: false,
 		description: '',
 		link: 'https://www.behance.net/gallery/145477191/Motion-Explainer-Video-Masari-',
@@ -136,7 +146,7 @@ export const myProjects2 = [
 	{
 		name: 'Giddam',
 		img: Qiddam,
-		id: 8,
+		id: 7,
 		boolean: false,
 		description: '',
 		link: 'https://instagram.com/p/Cll9Zalt1lG/',
@@ -144,7 +154,7 @@ export const myProjects2 = [
 	{
 		name: 'KSAU-HS',
 		img: HealthMajors_gif ? HealthMajors_gif : HealthMajors_jpg,
-		id: 6,
+		id: 8,
 		boolean: false,
 		description: '',
 		link: 'https://www.instagram.com/p/CewUEFEDxCn/?igshid=MzRlODBiNWFlZA==',
@@ -152,7 +162,7 @@ export const myProjects2 = [
 	{
 		name: 'Mazj',
 		img: Mzg,
-		id: 7,
+		id: 9,
 		boolean: false,
 		description: '',
 		link: 'https://www.instagram.com/reel/ClQZSVTDudW/?igshid=MzRlODBiNWFlZA==',
@@ -161,7 +171,7 @@ export const myProjects2 = [
 	{
 		name: 'korean',
 		img: korean,
-		id: 2,
+		id: 10,
 		boolean: false,
 		description: '',
 		link: 'https://www.behance.net/gallery/145216681/Korean-shed-Motion-Design',
@@ -169,7 +179,7 @@ export const myProjects2 = [
 	{
 		name: 'LogoAnimation',
 		img: LogoAnimation,
-		id: 4,
+		id: 11,
 		boolean: false,
 		description: '',
 		link: 'https://www.behance.net/gallery/146381363/Logo-Animation-V1',
@@ -178,7 +188,7 @@ export const myProjects2 = [
 	{
 		name: 'seedAndSteam',
 		img: seedAndSteam,
-		id: 5,
+		id: 12,
 		boolean: false,
 		description: '',
 		link: 'https://www.behance.net/gallery/121650789/Seed-and-Stem',
