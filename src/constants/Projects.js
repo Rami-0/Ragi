@@ -102,6 +102,14 @@ export const myProjects = [
 
 export const myProjects2 = [
 	{
+		name: 'Saudi Film Festival 2024',
+		img: intro_saudi_film,
+		id: 1,
+		boolean: false,
+		description: '',
+		link: 'https://www.instagram.com/reel/C6zIB42oLZA/?igsh=MTUwcnVucXhlcHh4cQ==',
+	},
+	{
 		name: 'SBA | Employees System explainer',
 		img: nizamAmergif,
 		id: 2,
